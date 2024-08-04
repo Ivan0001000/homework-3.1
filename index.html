@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 3.1</title>
+  </head>
+  <body>
+    <script>
+      let numberType = 42;
+      let stringType = "Привіт, світ!";
+      let booleanType = true;
+      let undefinedType;
+      let nullType = null;
+      let symbolType = Symbol("символ");
+      let bigintType = 9007199254740991n;
+
+      let objectType = {};
+      let arrayType = [];
+      let functionType = function () {};
+      let dateType = new Date();
+      let regExpType = /a/;
+      let mapType = new Map();
+      let setType = new Set();
+      let weakMapType = new WeakMap();
+      let weakSetType = new WeakSet();
+      let promiseType = new Promise((resolve, reject) => {});
+
+      // Виведення примітивних типів даних
+      console.log("number:", typeof numberType);
+      console.log("string:", typeof stringType);
+      console.log("boolean:", typeof booleanType);
+      console.log("undefined:", typeof undefinedType);
+      console.log("null:", typeof nullType);
+      console.log("symbol:", typeof symbolType);
+      console.log("bigint:", typeof bigintType);
+
+      // Виведення об'єктних типів даних
+      console.log("object:", typeof objectType);
+      console.log("array:", typeof arrayType);
+      console.log("function:", typeof functionType);
+      console.log("date:", typeof dateType);
+      console.log("regexp:", typeof regExpType);
+      console.log("map:", typeof mapType);
+      console.log("set:", typeof setType);
+      console.log("weakMap:", typeof weakMapType);
+      console.log("weakSet:", typeof weakSetType);
+      console.log("promise:", typeof promiseType);
+    </script>
+  </body>
+</html>
